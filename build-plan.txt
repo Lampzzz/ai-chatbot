@@ -1,0 +1,127 @@
+7–10 Day Learning & Build Plan
+
+================================================================================
+Day 1: Setup & Angular Basics
+================================================================================
+
+Goal: Setup project, understand Angular structure.
+
+Tasks:
+  • Install Node.js, Angular CLI
+  • Create a new Angular project: ng new chatgpt-app
+  • Understand folder structure:
+    - app/ → components & services
+    - assets/ → static files
+  • Run app: ng serve and view in browser
+  • Learn about components and modules
+
+Output: Running Angular starter app
+
+
+================================================================================
+Day 2: Components & Data Binding
+================================================================================
+
+Goal: Learn how to create components and bind data.
+
+Tasks:
+  • Create chat-window component (ng generate component chat-window)
+  • Learn:
+    - Interpolation ({{ }})
+    - Property binding ([property]="value")
+    - Event binding ((click)="function()")
+    - Two-way binding ([(ngModel)]="message")
+  • Build a simple UI:
+    - Text input for user message
+    - Send button
+    - Area to display messages
+
+Output: UI where you can type and display messages locally
+
+
+================================================================================
+Day 3: Services & HTTP
+================================================================================
+
+Goal: Connect Angular app to an API.
+
+Tasks:
+  • Learn Angular services: ng generate service chat
+  • Learn HttpClientModule
+  • Test HTTP GET request to a free API like JSONPlaceholder
+  • Understand Observables and .subscribe()
+
+Output: Console logs API response
+
+
+================================================================================
+Day 4: AI API Integration
+================================================================================
+
+Goal: Connect Angular to AI backend.
+
+Tasks:
+  • Sign up for OpenAI API
+  • Create API service to call GPT model
+  • Handle POST request with message input and API key
+  • Display AI response in chat window
+
+Output: Chat UI where user messages trigger AI response
+
+
+================================================================================
+Day 5: Chat UI Enhancements
+================================================================================
+
+Goal: Make chat look like real ChatGPT
+
+Tasks:
+  • Style messages (user vs AI)
+  • Add scroll for chat window
+  • Use Angular Material mat-card or flexbox for layout
+  • Optional: Add typing animation
+
+Output: Clean, functional chat interface
+
+
+================================================================================
+Day 6: State Management
+================================================================================
+
+Goal: Learn how to manage chat history.
+
+Tasks:
+  • Store messages in a service array
+  • Display chat history in chat-window dynamically
+  • Clear input after sending
+  • Optional: Persist chat in localStorage
+
+Output: Chat persists messages during session
+
+
+================================================================================
+Day 7: Optional Features
+================================================================================
+
+Goal: Add more interactivity
+
+Ideas:
+  • Light/dark theme toggle
+  • Loading indicator while AI is responding
+  • Save previous chats (localStorage)
+  • Input validation
+
+Output: Polished MVP ChatGPT clone
+
+
+================================================================================
+Day 8–10: Advanced Enhancements (Optional)
+================================================================================
+
+Goal: Go deeper into Angular & AI
+
+Tasks:
+  • Add voice input/output using Web Speech API
+  • Use RxJS to manage typing delays or streams
+  • Deploy app on Netlify or Vercel
+  • Explore GPT fine-tuning or context management for AI
