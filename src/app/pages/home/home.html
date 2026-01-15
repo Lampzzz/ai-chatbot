@@ -1,0 +1,4 @@
+<div class="chat-container">
+  <app-sidebar [collapsed]="sidebarCollapsed()" (toggleEvent)="onSidebarToggle($event)"></app-sidebar>
+  <app-main-content [sidebarCollapsed]="sidebarCollapsed()" (toggleSidebar)="toggleSidebar()"></app-main-content>
+</div>
